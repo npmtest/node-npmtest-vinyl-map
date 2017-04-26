@@ -1,6 +1,6 @@
 # npmtest-vinyl-map
 
-#### test coverage for  [vinyl-map (v1.0.2)](https://github.com/affirmix/vinyl-map)  [![npm package](https://img.shields.io/npm/v/npmtest-vinyl-map.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-vinyl-map) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-vinyl-map.svg)](https://travis-ci.org/npmtest/node-npmtest-vinyl-map)
+#### basic test coverage for  [vinyl-map (v1.0.2)](https://github.com/affirmix/vinyl-map)  [![npm package](https://img.shields.io/npm/v/npmtest-vinyl-map.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-vinyl-map) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-vinyl-map.svg)](https://travis-ci.org/npmtest/node-npmtest-vinyl-map)
 
 #### Map vinyl files' contents as strings, so you can easily use existing code without needing yet another gulp plugin!
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-vinyl-map/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-vinyl-map/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-vinyl-map/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-vinyl-map/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-vinyl-map/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-vinyl-map/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-vinyl-map/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-vinyl-map/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-vinyl-map/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-vinyl-map/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-vinyl-map/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-vinyl-map/build/coverage.html/index.html)
 
@@ -92,7 +92,8 @@
     "scripts": {
         "test": "node test"
     },
-    "version": "1.0.2"
+    "version": "1.0.2",
+    "bin": {}
 }
 ```
 
